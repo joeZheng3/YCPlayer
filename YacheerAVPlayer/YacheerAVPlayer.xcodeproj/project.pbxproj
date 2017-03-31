@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D07F0A81E8E51D6002C57FD /* 2012年秋冬大片花絮.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F0A51E8E51D6002C57FD /* 2012年秋冬大片花絮.mp4 */; };
+		2D07F0A91E8E51D6002C57FD /* 2012春夏广告片短.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F0A61E8E51D6002C57FD /* 2012春夏广告片短.mp4 */; };
+		2D07F0AA1E8E51D6002C57FD /* jihoufeng.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2D07F0A71E8E51D6002C57FD /* jihoufeng.mp4 */; };
 		2D09686E1E8A0A9E00EC315D /* YacheerMp3PlayerVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D09686D1E8A0A9E00EC315D /* YacheerMp3PlayerVc.m */; };
 		2D0968711E8A0AB400EC315D /* YacheerPlayerVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0968701E8A0AB400EC315D /* YacheerPlayerVc.m */; };
 		2D0968741E8A0D3B00EC315D /* UIViewController+SetNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0968731E8A0D3B00EC315D /* UIViewController+SetNavigationBar.m */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D07F0A51E8E51D6002C57FD /* 2012年秋冬大片花絮.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2012年秋冬大片花絮.mp4"; sourceTree = "<group>"; };
+		2D07F0A61E8E51D6002C57FD /* 2012春夏广告片短.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2012春夏广告片短.mp4"; sourceTree = "<group>"; };
+		2D07F0A71E8E51D6002C57FD /* jihoufeng.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jihoufeng.mp4; sourceTree = "<group>"; };
 		2D09686C1E8A0A9E00EC315D /* YacheerMp3PlayerVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YacheerMp3PlayerVc.h; sourceTree = "<group>"; };
 		2D09686D1E8A0A9E00EC315D /* YacheerMp3PlayerVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YacheerMp3PlayerVc.m; sourceTree = "<group>"; };
 		2D09686F1E8A0AB400EC315D /* YacheerPlayerVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YacheerPlayerVc.h; sourceTree = "<group>"; };
@@ -66,6 +72,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D07F0A31E8E51D6002C57FD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F0A41E8E51D6002C57FD /* mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2D07F0A41E8E51D6002C57FD /* mp4 */ = {
+			isa = PBXGroup;
+			children = (
+				2D07F0A51E8E51D6002C57FD /* 2012年秋冬大片花絮.mp4 */,
+				2D07F0A61E8E51D6002C57FD /* 2012春夏广告片短.mp4 */,
+				2D07F0A71E8E51D6002C57FD /* jihoufeng.mp4 */,
+			);
+			path = mp4;
+			sourceTree = "<group>";
+		};
 		2D0968781E8A0FC000EC315D /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +123,7 @@
 				2D0968781E8A0FC000EC315D /* Main */,
 				2D9C4C3A1E89714900BA1AA8 /* Mp3 */,
 				2D9C4C3B1E89714900BA1AA8 /* Mp4 */,
+				2D07F0A31E8E51D6002C57FD /* Resource */,
 				2D9C4C411E8972E900BA1AA8 /* Tools */,
 				2D9C4C191E8970F400BA1AA8 /* Supporting Files */,
 			);
@@ -293,9 +318,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D07F0A91E8E51D6002C57FD /* 2012春夏广告片短.mp4 in Resources */,
 				2D9C4C531E89759500BA1AA8 /* YacheerMp3Player.xib in Resources */,
 				2D9C4C4E1E8974B900BA1AA8 /* YacheerPlayer.xib in Resources */,
+				2D07F0AA1E8E51D6002C57FD /* jihoufeng.mp4 in Resources */,
 				2D9C4C3D1E89714900BA1AA8 /* Assets.xcassets in Resources */,
+				2D07F0A81E8E51D6002C57FD /* 2012年秋冬大片花絮.mp4 in Resources */,
 				2D9C4C3F1E89714900BA1AA8 /* Main.storyboard in Resources */,
 				2D9C4C3E1E89714900BA1AA8 /* LaunchScreen.storyboard in Resources */,
 			);
